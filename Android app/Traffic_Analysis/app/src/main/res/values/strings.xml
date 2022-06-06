@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">Traffic_Analysis</string>
+    <string-array name="source">
+        <item>Choose</item>
+        <item>CCTV-Tunnel01</item>
+        <item>CCTV-Tunnel02</item>
+        <item>Simulation Drone Camera-Outside01</item>
+        <item>Simulation Drone Camera-Outside02</item>
+        <item>Simulation Drone Camera-Outside03</item>
+    </string-array>
+
+    <string-array name="type">
+        <item>Choose</item>
+        <item>Experiment</item>
+        <item>CCTV</item>
+        <item>Drone Mount</item>
+    </string-array>
+
+    <string-array name="location">
+        <item>Choose</item>
+        <item>Freeway 1 North 0K+400 大業隧道</item>
+        <item>Freeway 3 North 380K+725 中寮隧道南口</item>
+    </string-array>
+
+    <string-array name="communication">
+        <item>Choose</item>
+        <item>4G Mobile Network</item>
+        <item>Wi-Fi</item>
+    </string-array>
+
+    <string-array name="module">
+        <item>Choose</item>
+        <item>CCTV</item>
+        <item>Simulation Drone</item>
+    </string-array>
+</resources>
