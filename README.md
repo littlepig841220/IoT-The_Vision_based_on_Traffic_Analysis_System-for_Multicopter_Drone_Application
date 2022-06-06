@@ -5,6 +5,6 @@
  Demo:https://www.youtube.com/watch?v=vEf-gJcpUQM
  
  這是一個物聯網專案，他可以分為兩個部分：Android的應用程式和一個在樹梅派4上運行的無人機掛載物，應用程式可以使用行動網路或是Wi-Fi遙控樹梅派的攝影機轉動並觀看攝影機的即時影像串流，當影像取得後，應用程式將使用OpenCV進行影像辨識，影像辨識的目的為交通狀況分析，但是目前仍有一些限制，像是無法準確的計算距離，因此可能是一個相對的比較。
- 這個專案用到相當多的第三方API，在應用程式端，使用到了OpenCV的Haar和直方圖分析以及解決行動網路進行TCP連線的OpenVPN(https://openvpn.net/)服務，在樹莓派端，使用了D-link的產品DWM-222(https://www.dlinktw.com.tw/home/product?id=925)提供行動網路，將Wi-Fi改成熱點(https://www.raspberrypi.com/documentation/computers/configuration.html#setting-up-a-routed-wireless-access-point)，方便手機直接連線，不需準備Wi-Fi基地台，影像的串流藉助了V4l2(https://github.com/mpromonet/v4l2rtspserver)的API支援，CCTV的串流來源為高速公路管理局(https://1968.freeway.gov.tw/)，現階段的成果已經結束，OpenVPN的伺服器已經關閉，只剩Wi-Fi可以正常運作，如想了解，可以觀看示範影片。
+ 這個專案用到相當多的第三方API，在應用程式端，使用到了OpenCV的Haar和直方圖分析以及解決行動網路進行TCP連線的OpenVPN(https://openvpn.net/) 服務，在樹莓派端，使用了D-link的產品DWM-222(https://www.dlinktw.com.tw/home/product?id=925)提供行動網路，將Wi-Fi改成熱點(https://www.raspberrypi.com/documentation/computers/configuration.html#setting-up-a-routed-wireless-access-point) ，方便手機直接連線，不需準備Wi-Fi基地台，影像的串流藉助了V4l2(https://github.com/mpromonet/v4l2rtspserver) 的API支援，CCTV的串流來源為高速公路管理局(https://1968.freeway.gov.tw/) ，現階段的成果已經結束，OpenVPN的伺服器已經關閉，只剩Wi-Fi可以正常運作，如想了解，可以觀看示範影片。
  
  示範影片：https://www.youtube.com/watch?v=vEf-gJcpUQM
